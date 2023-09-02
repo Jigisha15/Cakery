@@ -7,8 +7,8 @@ const Navbar = () => {
     <div class="nav">
       <h2>
         <NavLink
-          href="index.html"
-          className="a-link"
+          to={'/'}
+          className="a-link active"
         >
           Little Cakery
         </NavLink>
@@ -16,32 +16,32 @@ const Navbar = () => {
       <ul>
         <li>
           <NavLink
-            href="index.html"
-            className="a-link"
+            to={'/'}
+            className="a-link active"
           >
             HOME
           </NavLink>
         </li>
         <li>
           <NavLink
-            href="about.html"
-            className="a-link"
+            to={'/about'}
+            className="a-link active"
           >
             ABOUT
           </NavLink>
         </li>
         <li>
           <NavLink
-            href="products.html"
-            className="a-link"
+            to={'/product'}
+            className="a-link active"
           >
             PRODUCTS
           </NavLink>
         </li>
         <li>
           <NavLink
-            href="login.html"
-            className="a-link"
+            to={'/login'}
+            className="a-link active"
           >
             LOGIN / REGISTER
           </NavLink>
